@@ -34,7 +34,7 @@ const Navbar = () => {
   }
 ];
 const links=                navigationData.map(router=>(
-                <li key={router.id} className='mx-5 my-2 w-fit transition-all duration-300 hover:bg-white hover:text-2xl hover:text-black'>
+                <li key={router.id} className='mx-5 my-2 w-fit transition-all duration-300 hover:text-blue-400 hover:scale-125'>
                     <a href={router.path}>{router.name}</a>
                 </li>
                ))
@@ -54,7 +54,7 @@ const showNavbar=()=>{
 {links}
             </ul>
             <ul className={`
-        md:hidden absolute left-5 w-full transition-all duration-200 ease-in-out 
+        md:hidden absolute left-5 w-fit transition-all duration-200 ease-in-out bg-base-300
         ${showNav ? 'top-12 opacity-70' : '-top-300px opacity-0'}
       `}>
         {links}

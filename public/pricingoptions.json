@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "tier": "Basic",
+    "priceMonthly": 19.99,
+    "description": "Perfect for those who just want to get in, lift, and get out.",
+    "features": [
+      "Access to cardio and strength equipment",
+      "Single home-club access",
+      "Locker room and showers",
+      "Free high-speed WiFi",
+      "Mobile app for workout tracking"
+    ],
+    "highlight": false
+  },
+  {
+    "id": 2,
+    "tier": "Pro",
+    "priceMonthly": 49.99,
+    "description": "The best value for regular gym-goers who want classes and variety.",
+    "features": [
+      "All Basic features included",
+      "Unlimited group fitness classes",
+      "Access to all 50+ locations nationwide",
+      "Bring a guest for free (up to 4 times/month)",
+      "Complimentary sauna and steam room access",
+      "10% discount on nutrition products"
+    ],
+    "highlight": true
+  },
+  {
+    "id": 3,
+    "tier": "Elite",
+    "priceMonthly": 89.99,
+    "description": "A premium experience with recovery tools and personal coaching.",
+    "features": [
+      "All Pro features included",
+      "Unlimited guest privileges",
+      "2 Monthly 1-on-1 personal training sessions",
+      "Hydro-massage and cryotherapy recovery zone",
+      "Priority booking for specialty workshops",
+      "Dedicated towel service",
+      "Customized meal planning and nutrition coaching"
+    ],
+    "highlight": false
+  }
+]
