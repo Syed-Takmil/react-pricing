@@ -8,10 +8,10 @@ const PricingCard = ({data}) => {
 const{tier,priceMonthly,description,features}=data;
 console.log(data)
     return (
-        <div className='border bg-blue-800 border-4 rounded-xl border-amber-300 p-4 grid justify-self-start gap-3 
-        text-amber-100 w-full'>
+        <div className='font-bold border bg-blue-400 border-2 rounded-xl border-black p-4 grid justify-self-start gap-3 
+        h-full w-full'>
             <h1 className='text-4xl'>{tier}</h1>
-            <h1 className='hover:cursor-pointer bg-orange-500 rounded-4xl w-fit p-3'>{priceMonthly}/Month</h1>
+            <h1 className='hover:cursor-pointer bg-orange-500 rounded-4xl w-fit p-5 flex justify-center items-center'>{priceMonthly}/Month</h1>
             <p>{description}</p>
             <p>{features.map((feature,index)=>
                 (

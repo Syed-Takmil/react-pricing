@@ -1,7 +1,11 @@
+
+
 {
+
   "name": "tailwing-react-pricing-options",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/Syed-Takmil/react-pricing",
   "type": "module",
   "scripts": {
     "dev": "vite",
